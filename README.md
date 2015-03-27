@@ -1,6 +1,7 @@
 RapaPhidget
 =================
 A C++ object-oriented and cross-platform library for accessing Phidgets devices
+![alt text](docs/RapaPhidget.jpg?raw=true "A couple of Phidget devices")
 
 # Overview
 Phidgets are little USB devices manufactured by [Phidgets Inc](http://www.phidgets.com/).

@@ -5,7 +5,7 @@ PROJECT( "RapaPhidget" )
 SET( CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_LIST_DIR}/cmake" )
 
 IF( MSVC )
-	INCLUDE( VisualStudioSettings )
+	INCLUDE( RapaConfigureVisualStudio )
 ENDIF()
 	
 INCLUDE( FindPhidget21 )

@@ -3,7 +3,7 @@ CMAKE_MINIMUM_REQUIRED( VERSION 3.0 )
 PROJECT( RapaPhidgetSimpleTest )
 
 IF( MSVC )
-	INCLUDE( VisualStudioSettings )
+	INCLUDE( RapaConfigureVisualStudio )
 ENDIF()
 
 INCLUDE_DIRECTORIES( ${RapaPhidget_SOURCE_DIR} )
